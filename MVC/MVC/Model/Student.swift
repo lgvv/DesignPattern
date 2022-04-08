@@ -40,8 +40,12 @@ class Student: Person {
 }
 
 extension Student {
-    public func payTuition(fee: Int) -> Bool {
-        return fee > 463
+    public func payTuition(fee: Int) -> String {
+        if fee * 178 > 463 {
+            return "등록금을 납부하셨습니다."
+        } else {
+            return "등록금을 납부하지 않았습니다."
+        }
     }
     
 }

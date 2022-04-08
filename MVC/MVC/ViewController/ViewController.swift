@@ -30,15 +30,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sayHello(_ sender: Any) {
-        model.sayHello(to: "\(model.mockStudents[model.mockStudentIndex].name)")
+        let sayHello = model.sayHello(to: "\(model.mockStudents[model.mockStudentIndex].name)")
+        studentLabel.text = sayHello
     }
     
     func updateUI(with student: Student) {
         let info = self.model.mockStudents[student.mockStudentIndex]
+        let feeState = self.model.payTuition(fee: Int(info.studentID)!)
         studentLabel.text = """
                             이름: \(info.name)
                             전공: \(info.major)
                             학번: \(info.studentID)
+                            \(feeState)
                             """
     }
 }

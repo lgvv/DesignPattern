@@ -16,7 +16,7 @@ public class Person {
         self.secret = secret
     }
     
-    public func sayHello(to: String) {
-        print("Hello \(to)")
+    public func sayHello(to: String) -> String {
+        return "Hello \(to)"
     }
 }
