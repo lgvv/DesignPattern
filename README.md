@@ -3,6 +3,6 @@
 ✨ Swift로 디자인 패턴 스터디를 진행하고 기록합니다. <p>
 시작일 : 2022/04/08
 
-[[class Diagram]](https://rldd.tistory.com/365)<p>
+[Class Diagram](https://rldd.tistory.com/365)<p>
 [MVC pattern](https://rldd.tistory.com/366)<p>
 [Delegation pattern](https://rldd.tistory.com/366)
