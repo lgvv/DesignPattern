@@ -5,4 +5,4 @@
 
 [[class Diagram]](https://rldd.tistory.com/365)<p>
 [MVC pattern](https://rldd.tistory.com/366)<p>
-[Delegation pattern]
+[Delegation pattern](https://rldd.tistory.com/366)
