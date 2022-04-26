@@ -94,7 +94,7 @@ extension CreateQuestionGroupViewController {
     let row = indexPath.row
     if row == 0 {
       return titleCell(from: tableView, for: indexPath) // row 0에 맞는 cell 설정
-    } else if row >= 1 && // 
+    } else if row >= 1 && //
       row <= questionGroupBuilder.questions.count {
       return self.questionCell(from: tableView, for: indexPath)
     } else {
