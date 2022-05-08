@@ -7,4 +7,7 @@
 
 [Class Diagram](https://rldd.tistory.com/365)<p>
 [MVC pattern](https://rldd.tistory.com/366)<p>
-[Delegation pattern](https://rldd.tistory.com/366)
+[Delegation pattern](https://rldd.tistory.com/366)<p>
+[Strategy pattern](https://rldd.tistory.com/371)<p>
+[Memento pattern](https://rldd.tistory.com/376)<p>
+  
