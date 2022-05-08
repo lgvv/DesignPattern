@@ -10,4 +10,9 @@
 [Delegation pattern](https://rldd.tistory.com/366)<p>
 [Strategy pattern](https://rldd.tistory.com/371)<p>
 [Memento pattern](https://rldd.tistory.com/376)<p>
+[Observer pattern](https://rldd.tistory.com/382)<p>
+[Builder pattern](https://rldd.tistory.com/383)<p>
+[MVVM pattern](https://rldd.tistory.com/384)<p>
+[Builder pattern](https://rldd.tistory.com/394)<p>
+  
   
