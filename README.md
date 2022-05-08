@@ -13,6 +13,6 @@
 [Observer pattern](https://rldd.tistory.com/382)<p>
 [Builder pattern](https://rldd.tistory.com/383)<p>
 [MVVM pattern](https://rldd.tistory.com/384)<p>
-[Builder pattern](https://rldd.tistory.com/394)<p>
+[Factory pattern](https://rldd.tistory.com/394)<p>
   
   
