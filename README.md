@@ -24,4 +24,4 @@
   
   
 * ✨ 디자인패턴을 공부하고 직접 구현해 봅니다. 
-  * [디자인패턴 구현](https://github.com/lgvv/DesignPattern/tree/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EA%B5%AC%ED%98%84)
+  * [🔥디자인패턴 구현🔥](https://github.com/lgvv/DesignPattern/tree/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EA%B5%AC%ED%98%84)
