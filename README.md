@@ -19,3 +19,9 @@
 [Multicast Delegate Pattern](https://rldd.tistory.com/447)<p>
 [Facade Pattern](https://rldd.tistory.com/448)<p>
 [FlyWeight Pattern](https://rldd.tistory.com/449)<p>
+[Mediator Pattern](https://rldd.tistory.com/452)<p>
+[Composite Pattern](https://rldd.tistory.com/453)<p>
+  
+  
+ * 디자인패턴을 공부하고 직접 구현해 봅니다.
+  [디자인패턴 구현]()
