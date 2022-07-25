@@ -49,7 +49,7 @@ class CounterViewReactor: Reactor {
         case .increase:
             return Observable.concat([ // concat은 평등하게 먼저 들어온 옵저버블을 순서대로 방출
                 Observable.just(.setLoading(true)),
-                Observable.just(.increaseValue).delay(.seconds(1), scheduler: MainScheduler.instance),
+                Observable.just(.increaseValue).delay(.milliseconds(500), scheduler: MainScheduler.instance),
                 Observable.just(.setLoading(false))
             ])
         case .decrease:

@@ -11,9 +11,8 @@ import RxCocoa
 import ReactorKit
 import SnapKit
 
-class CounterViewController: UIViewController {
-    
-    let disposeBag = DisposeBag()
+class CounterViewController: UIViewController, View {
+    var disposeBag = DisposeBag()
     let counterViewReactor = CounterViewReactor()
     
     lazy var increaseButton = UIButton()
@@ -53,6 +52,7 @@ class CounterViewController: UIViewController {
             .disposed(by: disposeBag)
         
         reactor.state
+            .debug("-> ")
             .map { $0.isLoading }
             .distinctUntilChanged()
             .bind(to: loadingIndicator.rx.isAnimating)

@@ -15,7 +15,7 @@
 		B1D34ACC288BF9A400E73258 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D34ACB288BF9A400E73258 /* CounterViewController.swift */; };
 		B1D34AD1288BF9A500E73258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D34AD0288BF9A500E73258 /* Assets.xcassets */; };
 		B1D34AD4288BF9A500E73258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D34AD2288BF9A500E73258 /* LaunchScreen.storyboard */; };
-		B1D34ADF288BF9A500E73258 /* ReactorKitPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D34ADE288BF9A500E73258 /* ReactorKitPracticeTests.swift */; };
+		B1D34ADF288BF9A500E73258 /* CounterViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D34ADE288BF9A500E73258 /* CounterViewTests.swift */; };
 		B1D34AE9288BF9A500E73258 /* ReactorKitPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D34AE8288BF9A500E73258 /* ReactorKitPracticeUITests.swift */; };
 		B1D34AEB288BF9A500E73258 /* ReactorKitPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D34AEA288BF9A500E73258 /* ReactorKitPracticeUITestsLaunchTests.swift */; };
 		B1D34AF9288BFB8F00E73258 /* CounterViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D34AF8288BFB8F00E73258 /* CounterViewReactor.swift */; };
@@ -51,7 +51,7 @@
 		B1D34AD3288BF9A500E73258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1D34AD5288BF9A500E73258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1D34ADA288BF9A500E73258 /* ReactorKitPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactorKitPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1D34ADE288BF9A500E73258 /* ReactorKitPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorKitPracticeTests.swift; sourceTree = "<group>"; };
+		B1D34ADE288BF9A500E73258 /* CounterViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewTests.swift; sourceTree = "<group>"; };
 		B1D34AE4288BF9A500E73258 /* ReactorKitPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactorKitPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D34AE8288BF9A500E73258 /* ReactorKitPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorKitPracticeUITests.swift; sourceTree = "<group>"; };
 		B1D34AEA288BF9A500E73258 /* ReactorKitPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorKitPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		B1D34ADD288BF9A500E73258 /* ReactorKitPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
-				B1D34ADE288BF9A500E73258 /* ReactorKitPracticeTests.swift */,
+				B1D34ADE288BF9A500E73258 /* CounterViewTests.swift */,
 			);
 			path = ReactorKitPracticeTests;
 			sourceTree = "<group>";
@@ -205,6 +205,7 @@
 				B1D34AD6288BF9A500E73258 /* Sources */,
 				B1D34AD7288BF9A500E73258 /* Frameworks */,
 				B1D34AD8288BF9A500E73258 /* Resources */,
+				AAB32321FE9DB6291BC9D51A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -406,6 +407,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AAB32321FE9DB6291BC9D51A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactorKitPracticeTests/Pods-ReactorKitPracticeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactorKitPracticeTests/Pods-ReactorKitPracticeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactorKitPracticeTests/Pods-ReactorKitPracticeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -424,7 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D34ADF288BF9A500E73258 /* ReactorKitPracticeTests.swift in Sources */,
+				B1D34ADF288BF9A500E73258 /* CounterViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
