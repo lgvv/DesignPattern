@@ -10,11 +10,13 @@
 
 ### 2차 디자인 패턴 리뉴얼
 - 실무에서 더 자유자재로 디자인 패턴을 활용하면서 재정리
-- 1차 학습기간은 `따라하기`가 주였다면, 2차 디자인 패턴 리뉴얼에서는 `직접 만들기`를 수행
-- 이해를 바탕으로 필드에서 사용하거나 사용할 법한 예제 상황들로 구성
-- 참고 도서
-   - [raywenderlich design pattern](https://www.raywenderlich.com/books/design-patterns-by-tutorials)
-   - [guru](https://refactoring.guru/ko/design-patterns/swift)
+   - 방향: 1차 학습기간은 `따라하기`가 주였다면, 2차 디자인 패턴 리뉴얼에서는 `직접 만들기`를 수행
+   - 기간: 2024.11.24 ~ 2024.12.01
+   - 방법: 이해를 바탕으로 필드에서 사용하거나 사용할 법한 예제 상황들로 구성
+   - 인원: 1인
+   - 참고 도서
+      - [raywenderlich design pattern](https://www.raywenderlich.com/books/design-patterns-by-tutorials)
+      - [guru](https://refactoring.guru/ko/design-patterns/swift)
 
 ### 디자인패턴 상세한 설명
 - [Class Diagram](https://rldd.tistory.com/365)
