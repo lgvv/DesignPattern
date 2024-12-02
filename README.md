@@ -1,27 +1,33 @@
-# DesignPattern
-
-✨ Swift로 디자인 패턴 스터디를 진행하고 기록합니다. <p>
-[raywenderlich design pattern](https://www.raywenderlich.com/books/design-patterns-by-tutorials) 책을 기반으로 영어 문서를 번역하고 이해한 것을 바탕으로 글을 작성하고 있습니다.
-
-시작일: 2022/04/08 ~ 2022/07/07 <p>
-진행방식: 매주 목요일 21시부터 2개의 디자인 패턴에 대해서 발표합니다.
+# swift-design-pattern
 
 
-[Class Diagram](https://rldd.tistory.com/365)<p>
-[MVC pattern](https://rldd.tistory.com/366)<p>
-[Delegation pattern](https://rldd.tistory.com/366)<p>
-[Strategy pattern](https://rldd.tistory.com/371)<p>
-[Memento pattern](https://rldd.tistory.com/376)<p>
-[Observer pattern](https://rldd.tistory.com/382)<p>
-[Builder pattern](https://rldd.tistory.com/383)<p>
-[MVVM pattern](https://rldd.tistory.com/384)<p>
-[Factory pattern](https://rldd.tistory.com/394)<p>
-[Multicast Delegate Pattern](https://rldd.tistory.com/447)<p>
-[Facade Pattern](https://rldd.tistory.com/448)<p>
-[FlyWeight Pattern](https://rldd.tistory.com/449)<p>
-[Mediator Pattern](https://rldd.tistory.com/452)<p>
-[Composite Pattern](https://rldd.tistory.com/453)<p>
-  
-  
-* ✨ 디자인패턴을 공부하고 직접 구현해 봅니다. 
-  * [🔥디자인패턴 구현🔥](https://github.com/lgvv/DesignPattern/tree/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EA%B5%AC%ED%98%84)
+### 1차 학습 기간
+- 디자인 패턴에 대해서 학습하고 이를 따라 구현하기
+   - 기간: 2022.04.08 ~ 2022.07.07.
+   - 방법: 매주 2개의 디자인 패턴을 학습하고, 돌아가면서 발표
+   - 인원: 5인
+   - 참고 도서: [raywenderlich design pattern](https://www.raywenderlich.com/books/design-patterns-by-tutorials)
+
+### 2차 디자인 패턴 리뉴얼
+- 실무에서 더 자유자재로 디자인 패턴을 활용하면서 재정리
+- 1차 학습기간은 `따라하기`가 주였다면, 2차 디자인 패턴 리뉴얼에서는 `직접 만들기`를 수행
+- 이해를 바탕으로 필드에서 사용하거나 사용할 법한 예제 상황들로 구성
+- 참고 도서
+   - [raywenderlich design pattern](https://www.raywenderlich.com/books/design-patterns-by-tutorials)
+   - [guru](https://refactoring.guru/ko/design-patterns/swift)
+
+### 디자인패턴 상세한 설명
+- [Class Diagram](https://rldd.tistory.com/365)
+- [MVC pattern](https://rldd.tistory.com/366)
+- [Delegation pattern](https://rldd.tistory.com/366)
+- [Strategy pattern](https://rldd.tistory.com/371)
+- [Memento pattern](https://rldd.tistory.com/376)
+- [Observer pattern](https://rldd.tistory.com/382)
+- [Builder pattern](https://rldd.tistory.com/383)
+- [MVVM pattern](https://rldd.tistory.com/384)
+- [Factory pattern](https://rldd.tistory.com/394)
+- [Multicast Delegate Pattern](https://rldd.tistory.com/447)
+- [Facade Pattern](https://rldd.tistory.com/448)
+- [FlyWeight Pattern](https://rldd.tistory.com/449)
+- [Mediator Pattern](https://rldd.tistory.com/452)
+- [Composite Pattern](https://rldd.tistory.com/453)
