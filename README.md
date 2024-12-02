@@ -31,3 +31,6 @@
 - [FlyWeight Pattern](https://rldd.tistory.com/449)
 - [Mediator Pattern](https://rldd.tistory.com/452)
 - [Composite Pattern](https://rldd.tistory.com/453)
+- [Command Pattern](https://rldd.tistory.com/455)
+- [Chain-of-Responsibility Pattern](https://rldd.tistory.com/456)
+- [Coordinator Pattern](https://rldd.tistory.com/457)
